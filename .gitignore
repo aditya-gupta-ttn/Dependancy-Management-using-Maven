@@ -1,0 +1,46 @@
+# IntelliJ IDEA - Hide the entire .idea folder except important project settings
+.idea/
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/compiler.xml
+!.idea/jarRepositories.xml
+
+# IntelliJ module & project files
+.idea/libraries/
+*.iml
+*.ipr
+*.iws
+
+# Build & Target Directories (Maven, Gradle, etc.)
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse IDE
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+# NetBeans IDE
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# macOS system files
+.DS_Store
